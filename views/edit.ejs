@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Edit Task</title>
+</head>
+<body>
+    <form action="/tasks/<%= tasktoupdate.id %>?_method=PATCH" method="POST">
+        <input type="text" class="id" value="<%= tasktoupdate.id%>" name="id">
+        <input type="text" value="<%= tasktoupdate.task %>" name="newtask">
+        <button>edit</button>
+    </form>
+</body>
+</html>

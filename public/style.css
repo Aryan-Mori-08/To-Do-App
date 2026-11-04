@@ -1,0 +1,11 @@
+div{
+    border: 2px solid black;
+    width: 30rem;
+    height: 5rem;
+    background-color: antiquewhite;
+    margin: 1rem;
+}
+
+.id{
+    display: none;
+}
